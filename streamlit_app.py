@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+st.set_page_config(page_title="Prueba", page_icon="scr/fondo.jpg", layout="wide")
 
 # ---- HEADER SECTION ----
 with st.container():
