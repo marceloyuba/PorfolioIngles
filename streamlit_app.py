@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Marcelo Yuba's Portfolio", page_icon="scr/fondo.jpg", layout="wide", background=" scr/fondo.jpg no-repeat center center fixed")
+st.set_page_config(page_title="Marcelo Yuba's Portfolio", page_icon="scr/fondo.jpg", layout="wide")
 
 # ---- HEADER SECTION ----
 with st.container():
