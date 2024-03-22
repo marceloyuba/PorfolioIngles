@@ -17,10 +17,10 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
+local_css("style/style.css")
+
 st.markdown("""<style>.example-class {display:none;}</style>""", unsafe_allow_html=True)
 
-
-local_css("style/style.css")
 page_bg_img = f"""
 <style>
 
