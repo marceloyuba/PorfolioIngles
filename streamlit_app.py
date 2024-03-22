@@ -15,7 +15,8 @@ page_bg_img = f"""
 background-image: url("https://github.com/marceloyuba/PorfolioIngles/blob/main/scr/fondo.jpg?raw=true");
 background-position: top left;
 background-repeat: no-repeat;
-background-attachment: local;
+background-attachment: fixed;
+
 font-color
 }}
 
