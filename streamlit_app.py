@@ -27,6 +27,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hola, soy Marcelo Yuba :wave:")
+    st.markdown('<style>h1 {color: blue;}</style>', unsafe_allow_html=True)
     st.title("Un Data Analyst  y Data Scientist de Buenos Aires, Argentina")
     st.write(
         "Soy un apasionado en el analisis de datos usando, Power BI y Python, tratando de forma mas eficiente,  obtener resultados para tu negocio."
