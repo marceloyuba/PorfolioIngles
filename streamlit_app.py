@@ -6,7 +6,9 @@ st.set_page_config(page_icon="scr/fondo.jpg", layout="wide")
 with st.container():
     st.markdown(
         """
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">
         """,
         unsafe_allow_html=True
     )
@@ -16,7 +18,7 @@ with st.container():
         <style>
             h3 {color: white;}
             h1 {color: white;}
-            body {font-family: 'Roboto', sans-serif;}
+            font-family: "Ruluko", sans-serif;
         </style>
         """,
         unsafe_allow_html=True
