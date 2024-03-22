@@ -12,7 +12,7 @@ page_bg_img = f"""
 <style>
 
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://github.com/marceloyuba/PorfolioIngles/blob/main/scr/taxis.png?raw=true");
+background-image: url("https://github.com/marceloyuba/PorfolioIngles/blob/main/scr/fondoTaxis.png?raw=true");
 background-position: top left;
 background-repeat: repeat;
 background-attachment: fixed;
