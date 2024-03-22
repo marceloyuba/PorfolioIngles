@@ -9,9 +9,12 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 st.markdown('''
   <h1 style=
-  font-family: "Ruluko", sans-serif;
-  font-weight: 400;
-  font-style: normal;">
+  html, body, [class*=“css”] {
+  font-family: ‘Roboto’, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #091747;
+}
   Ruluko
   </h1>
 ''', unsafe_allow_html=True)
