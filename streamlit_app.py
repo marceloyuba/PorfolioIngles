@@ -8,9 +8,19 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
+custom_css = """
+<style>
+    body {
+        font-family: 'Roboto', sans-serif; /* Example: Change the font family */
+        background-color: #f0f0f0; /* Example: Change the background color */
+        color: #333; /* Example: Change the text color */
+    }
+</style>
+"""
+
 # ---- HEADER SECTION ----
 with st.container():
-    st.markdown('<style> width: 100%, padding: 12px, border: 1px, border-radius: 4px, box-sizing: border-box, margin-top: 6px, margin-bottom: 16px </style>', unsafe_allow_html=True)
+    st.markdown(custom_css, unsafe_allow_html=True)
     st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.subheader("Hola, soy Marcelo Yuba :wave:")
     st.markdown('<style>h1 {color: white;}</style>', unsafe_allow_html=True)
