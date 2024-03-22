@@ -26,7 +26,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.markdown('<style>h2 {color: white;}</style>', unsafe_allow_html=True)
+    st.markdown('<style>h3 {color: white;}</style>', unsafe_allow_html=True)
     st.subheader("Hola, soy Marcelo Yuba :wave:")
     st.markdown('<style>h1 {color: white;}</style>', unsafe_allow_html=True)
     st.title("Un Data Analyst  y Data Scientist de Buenos Aires, Argentina")
