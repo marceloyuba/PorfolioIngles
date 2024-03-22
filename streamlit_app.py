@@ -23,4 +23,4 @@ font-color
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.title("It's summer!")
+
