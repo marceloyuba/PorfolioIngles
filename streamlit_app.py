@@ -7,18 +7,15 @@ st.markdown('''
     @import url("https://fonts.googleapis.com/css2?family=Ruluko&display=swap");
   </style>
 ''', unsafe_allow_html=True)
+st.markdown('''
+  <h1 style=
+  font-family: "Ruluko", sans-serif;
+  font-weight: 400;
+  font-style: normal;">
+  Ruluko
+  </h1>
+''', unsafe_allow_html=True)
 
-with st.container():
-    st.markdown(
-        """
-        <style>
-            h3 {color: white;}
-            h1 {color: white;}
-            font-family: "Ruluko", sans-serif;
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
 
 def local_css(file_name):
     with open(file_name) as f:
