@@ -6,9 +6,7 @@ st.set_page_config(page_icon="scr/fondo.jpg", layout="wide")
 with st.container():
     st.markdown(
         """
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">
+        @import url("https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet")
         """,
         unsafe_allow_html=True
     )
