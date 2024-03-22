@@ -16,8 +16,7 @@ background-image: url("https://github.com/marceloyuba/PorfolioIngles/blob/main/s
 background-position: top left;
 background-repeat: repeat;
 background-attachment: fixed;
-
-font-color
+font:color="whithe"
 }}
 
 </style>
