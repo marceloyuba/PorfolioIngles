@@ -9,8 +9,8 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # ---- HEADER SECTION ----
-with st.container():
-    st.markdown('<style> width: 100%, padding: 12px, border: 1px, border-radius: 4px, box-sizing: border-box, margin-top: 6px, margin-bottom: 16px </style>')
+with st.container('<style> width: 100%, padding: 12px, border: 1px, border-radius: 4px, box-sizing: border-box, margin-top: 6px, margin-bottom: 16px </style>'):
+    
     st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.subheader("Hola, soy Marcelo Yuba :wave:")
     st.markdown('<style>h1 {color: white;}</style>', unsafe_allow_html=True)
