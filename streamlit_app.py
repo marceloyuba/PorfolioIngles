@@ -4,8 +4,8 @@ st.set_page_config(page_icon="scr/fondo.jpg", layout="wide")
 
 st.markdown('''
   <style>
-    @import url("https://fonts.googleapis.com/css2?family=Ruluko&display=swap");
-  </style>
+    @import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap')
+</style>
 ''', unsafe_allow_html=True)
 st.markdown('''
   <h1 style=
