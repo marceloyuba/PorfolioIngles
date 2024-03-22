@@ -8,19 +8,8 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
-custom_css = """
-<style>
-    body {
-        font-family: 'Roboto', sans-serif; /* Example: Change the font family */
-        background-color: #f0f0f0; /* Example: Change the background color */
-        color: #333; /* Example: Change the text color */
-    }
-</style>
-"""
-
 # ---- HEADER SECTION ----
-with st.container():
-    st.markdown(custom_css, unsafe_allow_html=True)
+with st.container():    
     st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.subheader("Hola, soy Marcelo Yuba :wave:")
     st.markdown('<style>h1 {color: white;}</style>', unsafe_allow_html=True)
@@ -50,7 +39,7 @@ background-image: url("https://github.com/marceloyuba/PorfolioIngles/blob/main/s
 background-position: top left;
 background-repeat: repeat;
 background-attachment: fixed;
-
+background-size: cover;
 }}
 
 </style>
