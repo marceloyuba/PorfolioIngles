@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_icon="scr/fondo.jpg", layout="wide")
+
 page_bg_img = f"""
 <style>
 
