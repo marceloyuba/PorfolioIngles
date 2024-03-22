@@ -16,4 +16,3 @@ background-attachment: local;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title("It's summer!")
-st.sidebar.header("Configuration")
