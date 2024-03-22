@@ -2,12 +2,32 @@ import streamlit as st
 
 st.set_page_config(page_icon="scr/fondo.jpg", layout="wide")
 
+
+with st.container():
+    st.markdown(
+        """
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        """
+        <style>
+            h3 {color: white;}
+            h1 {color: white;}
+            body {font-family: 'Roboto', sans-serif;}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")
 
+local_css("style/style.css")
 page_bg_img = f"""
 <style>
 
@@ -26,12 +46,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.markdown(
-    """
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    """,
-    unsafe_allow_html=True)
-    st.markdown('<style>h3 {color: white;}, font=</style>', '<span style="font-family: Roboto; font-size: 24px;">Este texto usa la fuente Roboto</span>', unsafe_allow_html=True)
+    st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.subheader("Hola, soy Marcelo Yuba :wave:")
     st.markdown('<style>h1 {color: white;}</style>', unsafe_allow_html=True)
     st.title("Un Data Analyst  y Data Scientist de Buenos Aires, Argentina")
