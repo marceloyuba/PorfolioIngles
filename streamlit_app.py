@@ -14,7 +14,7 @@ page_bg_img = f"""
 [data-testid="stAppViewContainer"] > .main {{
 background-image: url("https://github.com/marceloyuba/PorfolioIngles/blob/main/scr/taxis.png?raw=true");
 background-position: top left;
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-attachment: fixed;
 
 font-color
